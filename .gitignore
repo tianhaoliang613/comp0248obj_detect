@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+ml_lab/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for GitHub)
+dataset/
+data/MNIST/
+
+# Model weights
+weights/
+*.pth
+*.pkl
+*.h5
+*.ckpt
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+annotations.json
+labels.json
+*.zip
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Labelling temporary files
+labelling/
