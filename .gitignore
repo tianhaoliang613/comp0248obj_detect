@@ -18,7 +18,9 @@ ml_lab/
 *.swo
 
 # Data files (too large for GitHub)
-dataset/
+# dataset/ folder is excluded except for the README
+dataset/**
+!dataset/README.md
 data/MNIST/
 
 # Model weights
