@@ -3,13 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
 
 # Virtual environments
 venv/
 env/
 ENV/
-ml_lab/
+.venv/
 
 # IDE
 .vscode/
@@ -17,35 +16,30 @@ ml_lab/
 *.swp
 *.swo
 
-# Data files (too large for GitHub)
-# dataset/ folder is excluded except for the README
-dataset/**
-!dataset/README.md
-data/MNIST/
-
-# Model weights
+# Model weights (too large for GitHub)
 weights/
 *.pth
 *.pkl
 *.h5
 *.ckpt
 
-# Temporary files
+# Large data and results
+results/
+CW1_no_dataset/
+
+# Logs and temp
 *.log
 *.tmp
 *.temp
-annotations.json
-labels.json
 *.zip
 *.7z
 
 # OS files
 .DS_Store
 Thumbs.db
-__MACOSX/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Labelling temporary files
-labelling/
+# wandb auto-generated
+wandb/
